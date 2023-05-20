@@ -1,0 +1,105 @@
+@font-face {
+    font-family: Poppins;
+    src: url("../file/Poppins/poppins-v5-latin_devanagari-regular.woff")format("woff"),
+        url("../file/Poppins/poppins-v5-latin_devanagari-regular.woff2")format("woff2");
+}
+
+body{
+    font-family: "Poppins",sans-serif ;
+    font-size: 14px!important;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.main-menu{
+    margin: 0;
+    padding: 0;
+    border: 1px solid #f1f1f1;
+}
+.main-menu-item{
+    list-style: none;/* List style: none =>ul/li teg nuqtalarini ob tashidi*/
+    display: inline-block;
+    position: relative;
+}
+.main-menu-item a{
+    text-decoration: none;
+    color: #808080;
+    padding: 20px 15px;
+    display: inline-block;
+}
+.main-menu-item a:hover{
+    background-color: royalblue;
+    color: #ffffff;
+}
+.sub-menu{
+    margin: 0;
+    padding: 0;
+    border: 1px solid #ffffff;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 160px;
+    display: none;
+
+}
+.sub-menu-item{
+    list-style: none;
+    color: #808080;
+    padding: 10px 15px;
+    position: relative;
+}
+.sub-menu-item:hover{
+    color: white;
+    background-color: rgba(69,105,225,0.9);
+}
+.main-menu-item:hover > .sub-menu{
+    display: none;
+    z-index: 1;
+  background-color:rgba(69,105,225,0.9);
+}
+.sub-menu-item >.sub-menu{
+    left: 100%;
+    top: 0;
+}
+.sub-menu-item:hover .sub-menu{
+    display: none;
+}
+/*.fix{
+    position: fixed;
+    right: 200px;
+    top: 20%;
+    width: 150px;
+    height: 100px;
+    background-color: #808080;
+}
+.sticky{
+    position: sticky;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    background-color: indianred;
+}
+.absolute{
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    left: 0;
+    top: 120px;
+}*/
+.main-menu-item:before{
+    content: '';
+    border: 20px solid transparent;
+    border-top-color: royalblue;
+    position: absolute;
+    bottom: -40px;
+    left: 25%;
+}

@@ -1,0 +1,136 @@
+.wrap{
+    width: 1200px;
+    background-color: lightgrey;
+    height: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.main-menu{
+    height: 180px;
+    position: relative;
+}
+
+.a{
+    color: red;
+    margin-left: 10px;
+}
+.b{
+    color: white;
+}
+p{
+    margin-left: 10px;
+}
+.main-1{
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 70%;
+    height: 180px;
+    border: 1px solid #f1f1f1;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+}
+.main-menu-item-1{
+    display: inline-block;
+    width:70%;
+    height: 180px;
+}
+.main-menu-item-2{
+    width: 20%;
+    height: 180px;
+}
+.main-2{
+    top: 15px;
+    background-color: white;
+    width: 20%;
+    height: 180px;
+    border: 1px solid #f1f1f1;
+    display: inline-block;
+    margin-left: 5%;
+    text-align: center;
+    vertical-align: center;
+    margin-top: -10px;
+    position: absolute;
+}
+.main-menu-item-2{
+    margin-left: 640px;
+    margin-top: -170px;
+    vertical-align: center;
+    background-repeat: no-repeat;
+    background-size: 150px;
+
+}
+.main-menu-item-3{
+    text-align: center;
+    vertical-align: center;
+    background-color: red;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+.main-1:after{
+    content: '';
+    border: 30px solid white;
+    border-bottom-color: lightgrey;
+    border-right-color: lightgrey;
+    border-top-color: lightgrey;
+    position: absolute;
+    left: 840px;
+    bottom: 60px;
+}
+.ab{
+    color: dodgerblue;
+}
+.main-menu-2{
+    height: 180px;
+    margin-top: 20px;
+}
+.main-3{
+    width: 20%;
+    height: 180px;
+    margin-left: 5px;
+    border: 1px solid #f1f1f1;
+    background-color: white;
+    display: inline-block;
+    margin-top: 20px;
+}
+.main-menu-item-4{
+    text-align: center;
+    vertical-align: center;
+    background-color: yellow;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+.main-4{
+    margin-top: 20px;
+    margin-left: 5%;
+    width: 70%;
+    height: 180px;
+    border: 1px solid #f1f1f1;
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+}
+.main-menu-item-5{
+    background-repeat: no-repeat;
+    background-size: 150px;
+    display: inline-block;
+    width: 20%;
+    margin-left: 5%;
+}
+.main-menu-item-6{
+    height: 180px;
+    width: 70%;
+
+}
+.d{
+    color: yellow;
+}
+.main-menu-3{
+    height: 180px;
+}
+.main-5{
+
+}
+
